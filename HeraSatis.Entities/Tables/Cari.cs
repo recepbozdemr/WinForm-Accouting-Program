@@ -4,10 +4,11 @@ using System.Linq;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
+using HeraSatis.Entities.Interfaces;
 
 namespace HeraSatis.Entities.Tables
 {
-  public class Cari
+  public class Cari:IEntity
     {
 
         public int ID { get; set; }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HeraSatis.Entities.Interfaces;
 
 namespace HeraSatis.Entities.Tables
 {
-    public class Stok
+    public class Stok : IEntity
     {
         public int Id { get; set; }
         public bool Durum { get; set; }

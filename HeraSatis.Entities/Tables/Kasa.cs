@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HeraSatis.Entities.Interfaces;
 
 namespace HeraSatis.Entities.Tables
 {
-  public  class Kasa
+  public  class Kasa:IEntity
     {
         public int Id { get; set; }
         public string KasaKodu { get; set; }

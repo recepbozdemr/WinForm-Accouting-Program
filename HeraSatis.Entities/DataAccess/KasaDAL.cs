@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity.Migrations;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using HeraSatis.Entities.Context;
@@ -12,13 +10,7 @@ using HeraSatis.Entities.Validations;
 
 namespace HeraSatis.Entities.DataAccess
 {
-   public class StokDAL:EntityRepositoryBase<HeraSatisContext,Stok,StokValidator>
+  public  class KasaDAL: EntityRepositoryBase<HeraSatisContext, Kasa,KasaValidator>
     {
-
-      
-
-
-
-
     }
 }
