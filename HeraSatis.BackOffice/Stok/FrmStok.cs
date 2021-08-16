@@ -26,7 +26,8 @@ namespace HeraSatis.BackOffice.Stok
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-
+            FrmStokIslem form = new FrmStokIslem();
+            form.Show();
         }
 
         private void btnGuncelle_Click(object sender, EventArgs e)
@@ -104,6 +105,11 @@ namespace HeraSatis.BackOffice.Stok
         }
 
         private void filterControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl1_Click(object sender, EventArgs e)
         {
 
         }
